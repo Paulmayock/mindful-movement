@@ -40,3 +40,17 @@ Happy coding!
 
 
 
+Mindful Movement
+In this section it features info about a yoga club and some techniques and benefits of yoga on the mind and body.
+
+Home
+
+Techniques
+
+Sign up
+
+Links
+<https://wallpapercave.com/w/wp3157179>
+
+Problems
+Cannot get the main content to show on small screen (galaxy fold)
