@@ -109,9 +109,22 @@ main {
 }
 
 /* Footer */
-footer {
+ #social-media {
     background-color: orange;
-}
+    text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+ }
+
+ #social-media i {
+    font-size: 120%;
+        padding: 5%;
+        color: #ffffff;
+ }
+
+ 
 
 /* Media: tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
