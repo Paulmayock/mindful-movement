@@ -70,6 +70,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+#menu a:hover {
+    color: orange;
+}
+
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -111,6 +115,22 @@ main {
 }
 
 /* Footer */
+
+.contact-info {
+    width: 100%;
+    /* display full width as default on small screens */
+    align-items: center;
+}
+
+.contact-info a {
+    text-decoration: none;
+    /* remove underline from phone number and email clickable links */
+    color: #070707;
+}
+
+.contact-info a:hover {
+    color: orange;
+}
  #social-media {
     background-color: orange;
     text-align: center;
@@ -120,13 +140,16 @@ main {
         list-style-type: none;
  }
 
+
  #social-media i {
     font-size: 120%;
         padding: 5%;
         color: #ffffff;
  }
 
- 
+ #social-media i:hover {
+    color: #070707;
+ }
 
 /* Media: tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
