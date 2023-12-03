@@ -126,6 +126,20 @@ main {
         width: 100%;
 }
 
+/* main section heading */
+   #welcome h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    text-align: center;
+        letter-spacing: 2px;
+        color: #080808;
+}
+
+   #about p {
+padding: 0 20px;
+letter-spacing: 2px;
+}
+
 /* Footer */
 
 .contact-info {
