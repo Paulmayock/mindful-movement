@@ -1,56 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
-
-
-
 Mindful Movement
-In this section it features info about a yoga club and some techniques and benefits of yoga on the mind and body.
+Mindful movement is a yoga website which shows users some of the main poses when doing yoga. The poses also include some images of each pose to give the user a better understanding of the stance. The website also gives the user the opportunity to sign up to the yoga club along with contact details and links to our social media.
+Features
+o	Header
+o	This menu contains links to Home, Poses and Sign up page and will allow users to navigate between menus.
 
-Home
+o	On smaller screens the menu will change to a dropdown symbol called more so the menu will fit on smaller screens and the user can navigate the menu from there.
 
-Techniques
+o	Footer
+o	On the left of the footer it will feature contact info including phone number and email to contact Mindful Movement.
+o	Underneath the contacts will include links to social media. When clicked on these links will open new tabs.
 
-Sign up
+o	Favicon
+o	Work to be carried out to update Favicon to the Mindful Movement logo.
+
+Landing page
+o	This will be an image of the Mindful Movement logo. Below this will include a welcome message of what the aim of the club is. It also points to the poses and sign up if users are interested.
+
+Techniques page
+o	The aim of this page is to show the user some of the most popular yoga poses. There are six poses featured. Each pose will give step by step instructions on how to move into each pose.
+o	The page also contains an image for each pose so the user can have a better understanding of what position their body should be in when attempting each pose.
+
+Design
+o	Wireframe
+o	Home page
 
 Links
 <https://wallpapercave.com/w/wp3157179>
+<https://www.w3schools.com/html/>
+<https://www.123rf.com/>
 
 Problems
 Cannot get the main content to show on small screen (galaxy fold)
+Cannot get the h1 header to center
+Could not get page to scroll. Had to increase px of hero image
