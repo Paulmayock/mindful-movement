@@ -50,15 +50,80 @@ o	The page also contains an image for each pose so the user can have a better un
 ## Design
 
 o	Wireframe
+
 o	Home page
 
 ![wireframe](doc_images/readme_images/wireframe.PNG)
 
-## Links
+## Sign up page
 
-<https://wallpapercave.com/w/wp3157179>
-<https://www.w3schools.com/html/>
-<https://www.123rf.com/>
+o  The aim of this page is for users who wish to sign up to the yoga club can do so by filling out their information. All fields are required so no information from the user can be left blank.
+
+![sign-up-form]()
+
+## Features
+
+o	Responsive design
+o	Clickable contact links which open app to contact yoga club
+o	Sign up form with required fields
+
+## Desired features not implemented
+
+o	Thank you page and return to main page when sign up form has been completed
+o	A timetable showing monthly classes and a booking system to sign up.
+
+## Technologies
+
+### o	HTML
+
+o	The structure of the Website was developed using HTML as the main language.
+
+### o	CSS
+
+o	The Website was styled using custom CSS in an external file.
+
+### o	Codeanywhere
+
+o	The website was developed using Codeanywhere IDE.
+
+### o	GitHub
+
+o	The source code is hosted on Github and deployed using Git pages.
+
+### o	Favicon
+
+o	Favicon files created on <https://www.favicon-generator.org/>
+
+### o	Font Awesome
+
+o	Social media Icons downloaded using <https://fontawesome.com/>
+
+### o	Cloud convert
+
+o	To convert images to WEBP format to website was used <https://cloudconvert.com/>
+
+### o	123rf
+
+o	Used to create the mindful movement logo www.123rf.com
+
+### o	balsamiq
+
+o	wireframes were created using balsamiq from <https://balsamiq.com/wireframes/desktop/#>
+
+## Websites
+
+### o	W3schools
+
+o	Website used to research HTML and CSS functions <https://www.w3schools.com/>
+
+### o	Mind body green
+
+o	Site used to research steps for yoga poses www.mindbodygreen.com
+
+### o	Maji sports
+
+o	Site used to research steps for yoga poses www.majisports.com
+
 
 ## Problems
 
