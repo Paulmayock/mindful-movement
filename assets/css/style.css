@@ -153,6 +153,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .mountain-pose-steps img{
@@ -185,6 +186,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .standing-forward-pose-steps img {
@@ -217,6 +219,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .upward-facing-dog-pose-steps img {
@@ -249,6 +252,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .downward-facing-dog-pose-steps img {
@@ -281,6 +285,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .half-moon-pose-steps img {
@@ -313,6 +318,7 @@ letter-spacing: 2px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 5px;
 }
 
 .childs-resting-pose-steps img {
