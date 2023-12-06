@@ -71,7 +71,7 @@ h1 {
 }
 
 #menu a:hover {
-    color: orange;
+    color: rgb(197, 134, 18);
 }
 
 
@@ -154,6 +154,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .mountain-pose-steps img{
@@ -187,6 +188,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .standing-forward-pose-steps img {
@@ -220,6 +222,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .upward-facing-dog-pose-steps img {
@@ -253,6 +256,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .downward-facing-dog-pose-steps img {
@@ -286,6 +290,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .half-moon-pose-steps img {
@@ -319,6 +324,7 @@ letter-spacing: 2px;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
+    letter-spacing: 2px
 }
 
 .childs-resting-pose-steps img {
@@ -338,9 +344,39 @@ letter-spacing: 2px;
 }
 
 
+/* sign up form */
 
 
+/* styled to match footer and header colors */
+#sign-up-form {
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #343232;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin added to push form position up footer */
+    color: white;
+}
 
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+/* apply different color when hovered over with mouse */
+button:hover {
+
+    color: #ffb223;
+}
 
 
 
@@ -359,7 +395,7 @@ letter-spacing: 2px;
 }
 
 .contact-info a:hover {
-    color: orange;
+    color: rgb(197, 134, 18);
 }
  #social-media {
     background-color: orange;
