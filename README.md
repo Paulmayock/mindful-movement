@@ -2,7 +2,7 @@ Mindful Movement
 
 Mindful movement is a yoga website which shows users some of the main poses when doing yoga. The poses also include some images of each pose to give the user a better understanding of the stance. The website also gives the user the opportunity to sign up to the yoga club along with contact details and links to our social media.
 
-(doc_images/readme_images/Header-menu.PNG)
+!(doc_images/readme_images/Header-menu.PNG)
 
 Features
 o	Header
