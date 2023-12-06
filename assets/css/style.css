@@ -24,7 +24,7 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    font-size: 85%;
+    font-size: 100%;
         padding: 0 2rem;
         position: fixed;
         z-index: 99;
@@ -41,7 +41,7 @@ header a {
 }
 
 header label i {
-    font-size: 25%;
+    font-size: 50%;
 }
 
 header nav ul li {
@@ -61,7 +61,7 @@ h1 {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 85%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -73,6 +73,7 @@ h1 {
 #menu a:hover {
     color: rgb(197, 134, 18);
 }
+
 
 
 .active {
@@ -89,8 +90,9 @@ nav {
     box-shadow: 0 3px 3px #3a3a3a;
     display: none;
     top: 100%;
-    display: none;
-    top: 100%
+    
+    
+
 }
 
 /* navigation toggle */
@@ -370,7 +372,7 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: vertical;
 }
 /* apply different color when hovered over with mouse */
 button:hover {
@@ -416,6 +418,19 @@ button:hover {
  #social-media i:hover {
     color: #070707;
  }
+
+/* Hiding class, making content visible only to screen readers but not visually */
+/* "sr" meaning "screen-reader" */
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
 
 /* Media: tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
