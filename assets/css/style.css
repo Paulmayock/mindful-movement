@@ -140,12 +140,200 @@ padding: 0 20px;
 letter-spacing: 2px;
 
 }
+/* mountain pose styles */
+
+.mountain-pose{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}   
+.mountain-pose-steps{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mountain-pose-steps img{
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .mountain-pose {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+/* standing forward pose styles */
+
+.standing-forward-pose {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.standing-forward-steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.standing-forward-pose-steps img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .standing-forward-pose {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+/* upward facing dog pose styles */
+
+.upward-facing-dog-pose {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.upward-facing-dog-steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upward-facing-dog-pose-steps img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .upward-facing-dog-pose{
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+/* downward facing dog pose styles */
+
+.downward-facing-dog-pose {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.downward-facing-dog-steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.downward-facing-dog-pose-steps img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .downward-facing-dog-pose {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+/* half moon pose styles */
+
+.half-moon-pose {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.half-moon-steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.half-moon-pose-steps img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .half-moon-pose {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+/* childs resting pose styles */
+
+.childs-resting-pose {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.childs-resting-steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.childs-resting-pose-steps img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .childs-resting-pose {
+        flex-direction: row;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
 
 
- 
 
-/* poses.html */
-/* images centered */
+
 
 
 
