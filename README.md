@@ -426,19 +426,24 @@ Thewebsite live link is as follows - https://paulmayock.github.io/mindful-moveme
 
 ## Credit
 
-o Code Institute
+**o Code Institute**
+
     o Notes were followed using the HTML Essentials, CSS Essentials and Love Running project as a guidance to the outline HTML and CSS code.
 
-o W3schools
+**o W3schools**
+
     o Website used to search certain HTML and CSS fucntions.
 
-o Mind body green
-    oSite used to research steps for yoga poses www.mindbodygreen.com
+**o Mind body green**
 
-o Maji sports
-    oSite used to research steps for yoga poses www.majisports.com
+    o Site used to research steps for yoga poses www.mindbodygreen.com
 
-o 123rf
+**o Maji sports**
+    
+    o Site used to research steps for yoga poses www.majisports.com
+
+**o 123rf**
+
     o Used to create the mindful movement logo www.123rf.com    
 
 ### Content
