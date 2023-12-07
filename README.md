@@ -2,11 +2,13 @@
 
 Mindful movement is a yoga website which shows users some of the main poses when doing yoga. The poses also include some images of each pose to give the user a better understanding of the stance. The website also gives the user the opportunity to sign up to the yoga club along with contact details and links to our social media.
 
-![Mock](doc_images/readme_images/header-menu.PNG)
+![multi-use-device](doc_images/readme_images/multi-device-image.PNG)
 
 ## Features
 
 ### o   Header
+
+![Mock](doc_images/readme_images/header-menu.PNG)
 
 o	This menu contains links to Home, Poses and Sign up page and will allow users to navigate between menus.
 
@@ -47,6 +49,12 @@ o	The page also contains an image for each pose so the user can have a better un
 
 ![childs-resting](doc_images/readme_images/childs-resting.PNG)
 
+## Sign up page
+
+o  The aim of this page is for users who wish to sign up to the yoga club can do so by filling out their information. All fields are required so no information from the user can be left blank.
+
+![sign-up-form](doc_images/readme_images/sign-up-form.PNG)
+
 ## Design
 
 o	Wireframe
@@ -54,12 +62,6 @@ o	Wireframe
 o	Home page
 
 ![wireframe](doc_images/readme_images/wireframe.PNG)
-
-## Sign up page
-
-o  The aim of this page is for users who wish to sign up to the yoga club can do so by filling out their information. All fields are required so no information from the user can be left blank.
-
-![sign-up-form](doc_images/readme_images/sign-up-form.PNG)
 
 ## Features
 

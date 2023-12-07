@@ -48,8 +48,6 @@ header label i {
 header nav ul li {
     font-family: 'Lato', sans-serif;
     font-size: 100%;
-
-
 }
 
 h1 {
@@ -58,7 +56,6 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #080808;
-
 }
 
 #menu {
@@ -143,7 +140,6 @@ main {
 }
 
 /* mountain pose styles */
-
 .mountain-pose {
     display: flex;
     flex-direction: column;
@@ -177,7 +173,6 @@ main {
 }
 
 /* standing forward pose styles */
-
 .standing-forward-pose {
     display: flex;
     flex-direction: column;
@@ -197,7 +192,6 @@ main {
 .standing-forward-pose-steps img {
     width: 100%;
     height: auto;
-
 }
 
 @media only screen and (min-width: 800px) {
@@ -211,7 +205,6 @@ main {
 }
 
 /* upward facing dog pose styles */
-
 .upward-facing-dog-pose {
     display: flex;
     flex-direction: column;
@@ -245,7 +238,6 @@ main {
 }
 
 /* downward facing dog pose styles */
-
 .downward-facing-dog-pose {
     display: flex;
     flex-direction: column;
@@ -279,7 +271,6 @@ main {
 }
 
 /* half moon pose styles */
-
 .half-moon-pose {
     display: flex;
     flex-direction: column;
@@ -299,7 +290,6 @@ main {
 .half-moon-pose-steps img {
     width: 100%;
     height: auto;
-
 }
 
 @media only screen and (min-width: 800px) {
@@ -346,10 +336,7 @@ main {
     }
 }
 
-
 /* sign up form */
-
-
 /* sign up form style */
 #sign-up-form {
     margin-top: 50px;
@@ -380,11 +367,8 @@ textarea {
 
 /* apply different color when hovered over with mouse */
 button:hover {
-
-    color: #ffb223;
+ color: rgb(197, 134, 18);
 }
-
-
 
 /* Footer */
 
@@ -426,19 +410,6 @@ button:hover {
 
 #social-media i:hover {
     color: #070707;
-}
-
-/* Hiding class, making content visible only to screen readers but not visually */
-/* "sr" meaning "screen-reader" */
-
-.sr-only:not(:focus):not(:active) {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
 }
 
 /* Media: tablets and larger (768px+) */
