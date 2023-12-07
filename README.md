@@ -167,15 +167,15 @@ Below shows the results for each page when tested using lighthouse testing.
 
 o Home
 
-[home](doc_images/testing_images/home-page.PNG)
+[home](doc_images/testing_images/home.PNG)
 
 o Poses
 
-[poses](doc_images/testing_images/poses-page.PNG)
+[poses](doc_images/testing_images/poses.PNG)
 
 o Sign up
 
-[sign-up](doc_images/testing_images/sign-up-page.PNG)
+[sign-up](doc_images/testing_images/sign-up.PNG)
 
 ### Functional Testing
 
