@@ -59,7 +59,7 @@ o	Home page
 
 o  The aim of this page is for users who wish to sign up to the yoga club can do so by filling out their information. All fields are required so no information from the user can be left blank.
 
-![sign-up-form]()
+![sign-up-form](doc_images/readme_images/sign-up-form.PNG)
 
 ## Features
 
@@ -361,8 +361,50 @@ o HTML
 
 ### Unfixed Bugs 
 
-## Problems
+Responsiveness of the website worked on all devices, screen sizes and orientation. An issue I encountered was the landscape orientation on mozilla firefox. The issue here was the menu header on the home page was placed left of the screen. However this appeared to fix itself and I was unable to determine what the cause to this issue was.
 
-Cannot get the main content to show on small screen (galaxy fold)
-Cannot get the h1 header to center
-Could not get page to scroll. Had to increase px of hero image
+## Deployment
+
+### Controls
+
+The site was created using the Codeanywhere code editor and pushed to github to the remote repository 'mindful-movement'.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+**git add .** - This command was used to add the file(s) to the staging area before they are committed.
+
+**git commit -m “commit message”** - This command was used to commit changes to the local repository queue ready for the final step.
+
+**git push** - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+o The site was deployed to GitHub pages. The steps to deploy are as follows:
+    o In the GitHub repository, navigate to the Settings tab
+    o From the menu on left select 'Pages'
+    o From the source section drop-down menu, select the Branch: main
+    o Click 'Save'
+    
+A live link will be displayed in a green banner when published successfully.
+Thewebsite live link is as follows - https://paulmayock.github.io/mindful-movement/
+
+## Credit
+
+o Code Institute
+    o Notes were followed using the HTML Essentials, CSS Essentials and Love Running project as a guidance to the outline HTML and CSS code.
+
+o W3schools
+    o Website used to search certain HTML and CSS fucntions.
+
+o Mind body green
+    oSite used to research steps for yoga poses www.mindbodygreen.com
+
+o Maji sports
+    oSite used to research steps for yoga poses www.majisports.com
+
+o 123rf
+    o Used to create the mindful movement logo www.123rf.com    
+
+### Content
+
+All content with the exception of those listed in the Technologies, Websites and above Credit section of this document was created by myself.
