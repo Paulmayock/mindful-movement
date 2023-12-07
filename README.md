@@ -167,15 +167,15 @@ Below shows the results for each page when tested using lighthouse testing.
 
 o Home
 
-[home](doc_images/testing_images/home.PNG)
+![home](doc_images/testing_images/home.PNG)
 
 o Poses
 
-[poses](doc_images/testing_images/poses.PNG)
+![poses](doc_images/testing_images/poses.PNG)
 
 o Sign up
 
-[sign-up](doc_images/testing_images/sign-up.PNG)
+![sign-up](doc_images/testing_images/sign-up.PNG)
 
 ### Functional Testing
 
@@ -189,8 +189,175 @@ Testing was performed to ensure all navigation links on all pages navigated to t
 | Poses | poses.html |
 | Sign up | signup.html |
 
+**Footer/Social media links**
 
+Testing was performed on the social media icons on the footer to ensure when clicked on each opened a new tab and each one had a hover effect applied.
+Each item opened a new tab correctly.
 
+**Footer/Contact details links**
+
+Testing was performed on the footer email and phone number links to ensure when clicked on each link opened an app for the user to use to contact Mindful Movement.
+
+*Steps to test phone number*
+
+1. Navigate to Mindful Movement home page
+2. Click on the phone number in the footer
+
+Expected:
+A window appears asking the user to choose a device to call from.
+
+Result:
+Behaviour was as expected.
+
+*Steps to test email*
+
+1. Navigate to the Mindful Movement home page
+2. Click on the email address in the footer
+
+Expected:
+A window pops up asking the user what email app they would like to use to send a email.
+
+Result:
+Behavious is as expected.
+
+**Sign up form testing**
+The sign up form was tested to ensure each function worked as it should when correct and incorrect data was input.
+
+*Test one - Correct Inputs*
+
+Steps to test:
+
+1. Navigate to the mindful movement sign up page
+2. Input the following data:
+o First Name: John
+o Last Name: Smith
+o Age: 32
+o Email: johnsmith@gmail.com
+o Medical Condition: None.
+3. Click Submit
+
+Expected:
+
+Form submits with no warnings or errors and sign up page refreshes.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and sign up page refreshed.
+
+*Test Two - Missing Required Field First Name*
+
+Steps to test:
+
+1. Navigate to the sign up page
+2. Input the following data:
+o First Name:
+o Last Name: Smith
+o Age: 32
+o Email: johnsmith@gmail.com
+o Medical Condition: None.
+3. Click Submit
+Expected:
+
+The form does not submit and an Error is displayed saying please fill out this field.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+Test  Three - Missing Required Field Last Name
+
+Steps to test:
+
+1. Navigate to the sign up page
+2. Input the following data:
+o First Name: John
+o Last Name:
+o Age: 32
+o Email: johnsmith@gmail.com
+o Medical Condition: None.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed saying please fill out this field.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+*Test Four - Missing Required Age*
+
+Steps to test:
+
+1. Navigate to the sign up page
+2. Input the following data:
+o First Name:John
+o Last Name: Smith
+o Age:
+o Email: johnsmith@gmail.com
+o Medical Condition: None.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed saying please fill out this field.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+*Test five - Incorrect email format*
+
+Steps to test:
+
+1. Navigate to the sign up page
+2. Input the following data:
+o First Name:John
+o Last Name: Smith
+o Age: 32
+o Email:
+o Medical Condition: None
+3. Click Submit
+Expected:
+
+The form does not submit and an Error is displayed saying please fill out this field.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+*Test six - Missing required medical condition*
+
+Steps to test:
+
+1. Navigate to the sign up page
+2. Input the following data:
+o First Name:John
+o Last Name: Smith
+o Age: 32
+o Email: Johnsmith@gmail.com
+o Medical Condition:
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed saying please fill out this field.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+### Validation Testing
+o HTML
+   o No errors returned using the offical W3C validator
+   
+   ![home](doc_images/testing_images/home.PNG)
+
+   ![poseshtml](doc_images/testing_images/poseshtml.PNG)
+
+   ![signup](doc_images/testing_images/signup.PNG)
+
+### Unfixed Bugs 
 
 ## Problems
 
