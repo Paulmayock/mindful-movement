@@ -355,9 +355,9 @@ o HTML
    
    ![home](doc_images/testing_images/w3c-index.PNG)
 
-   ![poseshtml](doc_images/testing_images/W3c-poses.PNG)
+   ![poseshtml](doc_images/testing_images/w3c-poses.PNG)
 
-   ![signup](doc_images/testing_images/W3c-sign-up.PNG)
+   ![signup](doc_images/testing_images/w3c-signup.PNG)
 
 ### Unfixed Bugs 
 
