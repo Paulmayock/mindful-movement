@@ -148,7 +148,7 @@ Website is responsive on all screen sizes and no images are pixelated or stretch
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#unfixed-bugs)
 
 ### Accessibility
 
@@ -229,12 +229,17 @@ Steps to test:
 
 1. Navigate to the mindful movement sign up page
 2. Input the following data:
+
 o First Name: John
+
 o Last Name: Smith
 o Age: 32
+
 o Email: johnsmith@gmail.com
+
 o Medical Condition: None.
-3. Click Submit
+
+1. Click Submit
 
 Expected:
 
@@ -250,11 +255,17 @@ Steps to test:
 
 1. Navigate to the sign up page
 2. Input the following data:
+
 o First Name:
+
 o Last Name: Smith
+
 o Age: 32
+
 o Email: johnsmith@gmail.com
+
 o Medical Condition: None.
+
 3. Click Submit
 
 Expected:
@@ -271,12 +282,18 @@ Steps to test:
 
 1. Navigate to the sign up page
 2. Input the following data:
+
 o First Name: John
+
 o Last Name:
+
 o Age: 32
+
 o Email: johnsmith@gmail.com
+
 o Medical Condition: None.
-1. Click Submit
+
+3. Click Submit
 
 Expected:
 
@@ -292,11 +309,17 @@ Steps to test:
 
 1. Navigate to the sign up page
 2. Input the following data:
+
 o First Name:John
+
 o Last Name: Smith
+
 o Age:
+
 o Email: johnsmith@gmail.com
+
 o Medical Condition: None.
+
 3. Click Submit
 
 Expected:
@@ -313,12 +336,19 @@ Steps to test:
 
 1. Navigate to the sign up page
 2. Input the following data:
+   
 o First Name:John
+
 o Last Name: Smith
+
 o Age: 32
+
 o Email:
+
 o Medical Condition: None
+
 3. Click Submit
+   
 Expected:
 
 The form does not submit and an Error is displayed saying please fill out this field.
@@ -333,11 +363,17 @@ Steps to test:
 
 1. Navigate to the sign up page
 2. Input the following data:
+
 o First Name:John
+
 o Last Name: Smith
+
 o Age: 32
+
 o Email: Johnsmith@gmail.com
+
 o Medical Condition:
+
 3. Click Submit
 
 Expected:
