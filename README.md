@@ -124,6 +124,73 @@ o	Site used to research steps for yoga poses www.mindbodygreen.com
 
 o	Site used to research steps for yoga poses www.majisports.com
 
+### o   Wave webaim
+
+o   Site used to test the accessibility of the website
+
+## Testing
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined on browsers including Chrome and Firefox.
+
+Steps to test:
+
+1. Open browser and navigate to [Mindful Movement](https://8000-paulmayock-mindful-movem-uaehkwojuv.us2.codeanyapp.com/index.html)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present and no elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+
+### Accessibility
+
+Testing was focused to ensure the following criteria were met:
+
+o Color contrasts are applied for an easy to view on users vision
+o Heading levels are npplied to ensure the importance of content is relayed correctly to the end user
+o All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+o HTML page lang attribute has been set
+o Aria properties have been implemented correctly
+o WCAG 2.1 Coding best practices being followed
+
+### Lighthouse Testing
+
+Below shows the results for each page when tested using lighthouse testing.
+
+o Home
+
+[home](doc_images/testing_images/home-page.PNG)
+
+o Poses
+
+[poses](doc_images/testing_images/poses-page.PNG)
+
+o Sign up
+
+[sign-up](doc_images/testing_images/sign-up-page.PNG)
+
+### Functional Testing
+
+o **Navigation links**
+
+Testing was performed to ensure all navigation links on all pages navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| **Navigation Link** | **Page to Load** |
+| ----------- | ----------- |
+| Home | index.html |
+| Poses | poses.html |
+| Sign up | signup.html |
+
+
+
 
 ## Problems
 
