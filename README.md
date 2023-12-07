@@ -256,6 +256,7 @@ o Age: 32
 o Email: johnsmith@gmail.com
 o Medical Condition: None.
 3. Click Submit
+
 Expected:
 
 The form does not submit and an Error is displayed saying please fill out this field.
@@ -275,7 +276,7 @@ o Last Name:
 o Age: 32
 o Email: johnsmith@gmail.com
 o Medical Condition: None.
-3. Click Submit
+1. Click Submit
 
 Expected:
 
@@ -349,13 +350,14 @@ Website behaved as expected, error message was displayed and the form did not su
 
 ### Validation Testing
 o HTML
+
    o No errors returned using the offical W3C validator
    
-   ![home](doc_images/testing_images/home.PNG)
+   ![home](doc_images/testing_images/w3c-index.PNG)
 
    ![poseshtml](doc_images/testing_images/poseshtml.PNG)
 
-   ![signup](doc_images/testing_images/signup.PNG)
+   ![signup](doc_images/testing_images/sign-up.PNG)
 
 ### Unfixed Bugs 
 
