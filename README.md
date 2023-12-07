@@ -17,7 +17,9 @@ o	On smaller screens the menu will change to a dropdown symbol called more so th
 ![Smaller-screen-menu](doc_images/readme_images/home-menu-more.PNG)
 
 o   Footer
+
 o	On the left of the footer it will feature contact info including phone number and email to contact Mindful Movement.
+
 o	Underneath the contacts will include links to social media. When clicked on these links will open new tabs.
 
 ### o   Favicon
@@ -35,6 +37,7 @@ o	This will be an image of the Mindful Movement logo. Below this will include a 
 ## Techniques page
 
 o	The aim of this page is to show the user some of the most popular yoga poses. There are six poses featured. Each pose will give step by step instructions on how to move into each pose.
+
 o	The page also contains an image for each pose so the user can have a better understanding of what position their body should be in when attempting each pose.
 
 ![mountain](doc_images/readme_images/mountain-pose.PNG)
@@ -66,12 +69,15 @@ o	Home page
 ## Features
 
 o	Responsive design
+
 o	Clickable contact links which open app to contact yoga club
+
 o	Sign up form with required fields
 
 ## Desired features not implemented
 
 o	Thank you page and return to main page when sign up form has been completed
+
 o	A timetable showing monthly classes and a booking system to sign up.
 
 ## Technologies
@@ -157,10 +163,15 @@ Website behaved as expected with the exception of switching to landscape view in
 Testing was focused to ensure the following criteria were met:
 
 o Color contrasts are applied for an easy to view on users vision
+
 o Heading levels are npplied to ensure the importance of content is relayed correctly to the end user
+
 o All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+
 o HTML page lang attribute has been set
+
 o Aria properties have been implemented correctly
+
 o WCAG 2.1 Coding best practices being followed
 
 ### Lighthouse Testing
@@ -418,9 +429,13 @@ The following git commands were used throughout development to push code to the 
 ### Deployment to Github Pages
 
 o The site was deployed to GitHub pages. The steps to deploy are as follows:
+
     o In the GitHub repository, navigate to the Settings tab
+    
     o From the menu on left select 'Pages'
+    
     o From the source section drop-down menu, select the Branch: main
+    
     o Click 'Save'
     
 A live link will be displayed in a green banner when published successfully.
